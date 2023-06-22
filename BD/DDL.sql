@@ -1,0 +1,14 @@
+CREATE DATABASE Intelitrader;
+GO
+
+USE Intelitrader;
+GO
+
+CREATE TABLE USUARIO (
+	idUsuario VARCHAR(36) NOT NULL PRIMARY KEY,
+	firstName VARCHAR(256) NOT NULL,
+	surName VARCHAR(256),
+	age INT NOT NULL,
+	creationDate DATETIME NOT NULL
+);
+GO
